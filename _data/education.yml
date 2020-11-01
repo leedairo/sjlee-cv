@@ -2,15 +2,11 @@
 - degree: B.S. Department of Physics
   uni: Kyung Hee University
   year: 03/06 &mdash; 02/12
-  
-- degree: M.S. Department of Physics
-  uni: Kyung Hee University
-  year: 03/15 &mdash; 02/17
-  awards:
+- degree2: M.S. Department of Physics
+  year2: 03/15 &mdash; 02/17
+  awards2:
       - award: Advisor; Prof. Yongsup Park, Prof. Young-Kyun Kwon
-  
-- degree: Ph.D. Department of Physics
-  uni: Kyung Hee University
-  year: 03/17 &mdash; present
-  awards:
+- degree3: Ph.D. Department of Physics
+  year3: 03/17 &mdash; present
+  awards3:
       - award: Advisor; Prof. Yongsup Park, Prof. Young-Kyun Kwon
