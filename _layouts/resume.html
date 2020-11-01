@@ -87,7 +87,21 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul></h5>
-
+          <h6 class="resume-item-details group" itemprop="description">{{ education.degree2 }} &bull; {{ education.year2 }}</h6>
+          <h7 class="resume-item-details award-title" itemprop="description">{{ education.award2 }}</h7>
+            <ul class="resume-item-list">
+              {% for award in education.awards2 %}
+              <li>{{ award2.award }}</li>
+              {% endfor %}
+            </ul></h7>
+          <h8 class="resume-item-details group" itemprop="description">{{ education.degree3 }} &bull; {{ education.year3 }}</h8>
+          <h9 class="resume-item-details award-title" itemprop="description">{{ education.award3 }}</h9>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              {% for award in education.awards3 %}
+              <li>{{ award3.award }}</li>
+              {% endfor %}
+            </ul></h9>
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
